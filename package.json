@@ -9,12 +9,28 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "bcrypt": "^5.0.1",
+    "js-cookie": "^3.0.1",
+    "jsonwebtoken": "^8.5.1",
+    "mysql2": "^2.3.3",
     "next": "12.1.6",
+    "next-connect": "^0.12.2",
+    "nprogress": "^0.2.0",
+    "pg": "^8.7.3",
+    "pg-hstore": "^2.3.4",
+    "postcss-preset-env": "^7.6.0",
     "react": "18.1.0",
-    "react-dom": "18.1.0"
+    "react-dom": "18.1.0",
+    "sequelize": "^6.19.2",
+    "sqlite3": "^5.0.8"
   },
   "devDependencies": {
-    "eslint": "8.16.0",
-    "eslint-config-next": "12.1.6"
+    "dotenv": "^16.0.1",
+    "eslint": "^8.16.0",
+    "eslint-config-next": "12.1.6",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.6.2",
+    "sequelize-cli": "^6.4.1"
   }
 }
